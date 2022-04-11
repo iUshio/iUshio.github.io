@@ -7,11 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        window.location.href = 'http://139.224.162.64'
+        function change() {
+            window.location.href = 'http://139.224.162.64'
+        }
     </script>
+    <style>
+        div{
+            text-align: center;
+        }
+        button {
+            width: 360px;
+            height: 60px;
+            background-color: red;
+            color: rgb(233, 233, 233);
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+        }
+
+        button:active {
+            transform: translateY(4px);
+        }
+
+        button:hover{
+            color: rgb(233, 196, 196);
+        }
+    </style>
 </head>
 
 <body>
+    <div>
+        <button onclick="change()">尚品汇前端</button>
+    </div>
+    
 </body>
 
 </html>
