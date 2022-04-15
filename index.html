@@ -5,19 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>index</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <script>
         function change() {
             window.location.href = 'http://139.224.162.64'
         }
     </script>
     <style>
-        div{
-            text-align: center;
+        html{
+            height: 100%;
         }
+        body{
+            background-image: linear-gradient(to top right,skyblue,rgb(72, 255, 0));
+        }
+
         button {
             width: 360px;
-            height: 60px;
+            line-height: 50px;
             background-color: red;
             color: rgb(233, 233, 233);
             border: none;
@@ -32,14 +37,18 @@
         button:hover{
             color: rgb(233, 196, 196);
         }
+
+        .main{
+            text-align: center;
+            margin: 250px auto;
+        }
     </style>
 </head>
 
 <body>
-    <div>
+    <div class="main">
         <button onclick="change()">尚品汇前端</button>
     </div>
-    
 </body>
 
 </html>
